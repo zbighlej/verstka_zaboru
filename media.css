@@ -1,0 +1,226 @@
+	/*media
+	/*------------text first_block---------------*/
+	@media only screen and (max-width:1920px){
+	.firstblock_text{padding-top: 40px;}
+	.firstblock span{ padding-top: 10px;}
+	}
+	@media only screen and (max-width:1366px){
+	#first_section{background: url(images/kartinka_2_1366.jpg) no-repeat;
+	background-position: bottom center; background-size: cover;
+		}
+	}
+	@media only screen and (max-width:1024px){
+	#first_section{background: url(images/kartinka_2_1024.jpg) no-repeat;
+	background-position: bottom center; background-size: cover;
+		}
+	}	
+
+
+	/*GALLERY*/
+@media only screen and (max-width:991px){
+	.gallery a{
+		max-width:25%;
+	}
+	.gallery_img:nth-child(4n){
+		display:block;
+	}
+}
+
+
+/*-------------text block----------------*/
+@media only screen and (max-width:850px){
+.o_kompanii{
+	margin-bottom: 20px;
+}
+ .about_text{
+ 	margin: 0 30px;
+ }
+.about_text > .text{ 
+	margin-bottom: 85px; 
+	}
+
+.text p{
+	display: inline-block;
+}
+.about_text > .text h4{
+	text-align: center; padding-top: 10px;
+}
+.about_text >.text h4::before{
+	display: none;
+	}
+ .text > .immage{
+ 	float: none; margin:0 auto!important; 
+ }
+
+ .about_text:nth-child(2n) .immage{ 
+		float: none; 
+	}
+}
+/*--------end text block-------------*/
+
+
+
+/*galery*/
+@media only screen and (max-width:849px){
+	.gallery a{
+		max-width:33.33%;
+		height:232px;
+		float:left;
+		
+	}
+	
+	.gallery_img:nth-child(4n){
+		display:none;
+	}
+}
+
+/*form zakaz*/
+@media only screen and (max-width:820px){
+.inputs_zakaz{
+	display: block; margin: 0 auto;
+	margin-bottom: 10px;
+		}
+.form_zakaz p{
+	width: 240px;
+	margin: 0 auto;
+	}
+}
+/*----------------------------------------*/
+/*adapted-phones*/
+	@media only screen and (max-width:789px){
+	#header{
+	height: auto;
+	overflow: auto;
+	}
+	#logo_header{
+	float: none;
+	}
+	.phones_header_border{float: none; margin-left: 0;}
+	.phones_header_border::before{display: none;}
+	.container{ display: none;}
+	.button { display: block;}
+	/*sidebar header*/
+.burger_container{
+	font-family: 'Acrom', sans-serif;
+	width: 100%;
+	position: absolute;
+	left: 0; top: 75px;
+	display: none;
+}
+	.nav{
+	
+	background: #3e434c;
+	z-index: 1;
+	display: inline-block;
+	width: 100%;
+}
+
+.nav > li{
+	z-index: 1; 
+	width: 100%; 
+	border-bottom: 2px solid #72767d;	
+}
+		.nav > li:last-child{
+			border-bottom: none;
+		}
+
+.nav > li > a{
+	width: 100%; box-sizing: border-box;
+	font-size: 18px; 
+	padding: 26px 0 27px 83px; position: relative;
+	text-align: left;
+	}
+
+	/*icon*/
+	.zabor_a::before{
+	content:"";
+	display: block;	
+	position: absolute;
+	bottom: 15px; left: 20px;
+	background:url('images/sprites.png') no-repeat 7px 0;
+	width: 45px;
+	height: 34px;
+					}
+
+	.krovli_a::before{
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: 15px; left: 20px;
+	background: url('images/sprites.png') no-repeat -63px -1px;
+	width: 47px;
+	height: 34px;
+		}	
+
+	.svarka_a::before{
+	content:"";
+	display: block;
+	position: absolute;
+	bottom: 15px; left: 20px;
+	background: url('images/sprites.png') no-repeat -128px 0;
+	width: 55px;
+	height: 34px;
+		}			
+		/*end icon*/
+
+.nav li:hover .list_hover_1,.nav li:hover .list_hover_2,.nav li:hover .list_hover_3{ 							
+	display:none;	
+}
+/*--- ВЫПАДАЮЩИЕ ПУНКТЫ бургер---*/
+.list_hover_1,.list_hover_2,.list_hover_3{
+	top: 0;  
+	position:relative;
+	display: none; 											
+}
+
+  .list_hover_1 li,.list_hover_2 li,.list_hover_3 li{
+width: 100%; 
+background: #c5c5c5!important; 
+		}
+.list_hover_1 li a,.list_hover_2 li a,.list_hover_3 li a {
+	width: 100%;
+	color: #3e434c;
+	text-transform:uppercase;
+	font-weight: 400;
+	font-size: 15px;
+	display:block; 
+	margin: 0 auto;
+		}
+/*end sidebar header*/
+	}
+/*--------------------------*/
+
+
+@media only screen and (max-width:767px){
+	.gallery a{
+		max-width:50%;
+		height:232px;
+		float:left;
+		
+	}
+	
+	.gallery_img:nth-child(4n){
+		display:none;
+	}
+}
+
+@media only screen and (max-width:479px){
+	
+	.gallery a{
+		max-width:100%;
+		margin:0 auto;
+		float:none;
+		display:block;
+		}
+}
+
+
+	/*firstblock*/
+	@media only screen and (max-width:450px){
+	.firstblock_text{margin: 0 auto;}
+}
+
+	
+
+
+
